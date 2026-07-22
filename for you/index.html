@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>برای دنیا ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<div id="hearts-container"></div>
+
+<main class="app">
+
+
+    <!-- مرحله 1 -->
+    <section class="page active" id="page1">
+
+        <div class="icon">
+            ✨
+        </div>
+
+        <h1>
+            یه نفر هست که یه حرف مهم باهات داره...
+        </h1>
+
+        <p>
+            چند دقیقه از وقتت رو بهم میدی؟ ❤️
+        </p>
+
+        <button onclick="nextPage(2)">
+            شروع کنیم ✨
+        </button>
+
+    </section>
+
+
+
+    <!-- مرحله 2 -->
+    <section class="page" id="page2">
+
+        <div class="heart-big">
+            ❤️
+        </div>
+
+        <h1>
+            منو دوست داری؟ 🥺
+        </h1>
+
+
+        <div class="buttons">
+
+            <button onclick="nextPage(3)">
+                آره ❤️
+            </button>
+
+
+            <button id="noBtn1">
+                نه 🙈
+            </button>
+
+        </div>
+
+
+        <p id="message1"></p>
+
+    </section>
+
+
+
+
+
+    <!-- مرحله 3 -->
+    <section class="page" id="page3">
+
+
+        <div class="letter">
+
+            💌
+
+        </div>
+
+
+        <h1>
+            یه نامه برای تو...
+        </h1>
+
+
+        <p class="typing">
+
+            از همون اولین روزی که دیدمت،
+            یه حس قشنگ توی قلبم شکل گرفت ❤️
+
+        </p>
+
+
+        <button onclick="nextPage(4)">
+            ادامه 🌹
+        </button>
+
+
+    </section>
+
+
+
+
+
+
+    <!-- مرحله 4 -->
+    <section class="page" id="page4">
+
+
+        <div class="night">
+
+            🌙✨
+
+        </div>
+
+
+        <h1>
+            چند تا حرف از قلبم...
+        </h1>
+
+
+        <p id="quotes">
+
+            بودنت قشنگ‌ترین اتفاق زندگی منه ❤️
+
+        </p>
+
+
+        <button onclick="nextPage(5)">
+            ادامه بده 💖
+        </button>
+
+
+    </section>
+
+
+
+
+
+
+
+    <!-- مرحله 5 -->
+    <section class="page" id="page5">
+
+
+        <div class="ring">
+            💍
+        </div>
+
+
+        <h1>
+            حاضری زندگیتو با من شریک بشی؟
+        </h1>
+
+
+
+        <div class="buttons">
+
+            <button onclick="nextPage(6)">
+                آره ❤️
+            </button>
+
+
+            <button id="noBtn2">
+                نه 🙈
+            </button>
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- مرحله 6 -->
+    <section class="page" id="page6">
+
+
+        <h1>
+            ❤️
+        </h1>
+
+
+        <p>
+            یه شروع قشنگ...
+        </p>
+
+
+        <button onclick="nextPage(7)">
+            ادامه ✨
+        </button>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- مرحله 7 -->
+    <section class="page" id="page7">
+
+
+        <h1>
+            دنیا جان ❤️
+        </h1>
+
+
+        <p id="promiseText"></p>
+
+
+        <button onclick="nextPage(8)">
+            ادامه 🌹
+        </button>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- مرحله 8 -->
+    <section class="page" id="page8">
+
+
+        <h1>
+            از ۲۴ مرداد ۱۴۰۴ تا همیشه ❤️
+        </h1>
+
+
+        <div class="timer">
+
+
+            <div>
+                <span id="days">0</span>
+                روز
+            </div>
+
+
+            <div>
+                <span id="hours">0</span>
+                ساعت
+            </div>
+
+
+            <div>
+                <span id="minutes">0</span>
+                دقیقه
+            </div>
+
+
+            <div>
+                <span id="seconds">0</span>
+                ثانیه
+            </div>
+
+
+        </div>
+
+
+        <button onclick="nextPage(9)">
+            ادامه ❤️
+        </button>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- مرحله 9 -->
+    <section class="page" id="page9">
+
+
+        <p id="finalText"></p>
+
+
+        <button onclick="nextPage(10)">
+            پایان ✨
+        </button>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- مرحله 10 -->
+    <section class="page" id="page10">
+
+
+        <div class="firework">
+            🎆</div>
+            <h1>
+            ❤️ محمد × دنیا ❤️
+        </h1>
+
+
+            <h2>
+                تا همیشه...
+            </h2>
+
+
+            <p>
+                Forever Starts Here ❤️
+            </p>
+
+
+    </section>
+
+
+
+</main>
+
+
+
+<audio id="music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+
+<button id="musicBtn" class="music-btn">
+    🎵
+</button>
+
+
+<div id="petals"></div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
